@@ -1,0 +1,196 @@
+/*****************
+
+
+*****************/
+
+body{
+
+	background-color: #0D0D0D;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+}
+
+
+#title{
+
+	color: #CCCCCC;
+	font-family: 'Lobster', sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+#title span{
+	
+	font-family: sans-serif;
+	font-size: 10px;
+	display: block;
+	margin-top: 5px;
+	padding: 0;
+}
+
+#wrapper{
+
+	margin: 0 auto;
+	width: 1280px;
+	position: relative;
+
+}
+
+#slider{
+	
+	position: relative;
+	width: 960px;
+	height: 440px;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #EBE8E8;
+	border: solid 3px #EBE8E8;
+}
+
+#slider ul{
+
+	list-style: none;
+	float: left;
+	width: 2000px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+#slider ul li{
+
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+
+#slider img{
+
+	height: 422px;
+	z-index: 1;
+
+}
+
+#left_arrow{
+
+	background: url('../resources/arrows.png');
+	position: absolute;
+
+}
+#left_arrow{
+
+	height: 60px;
+	width: 37px;
+	z-index: 10;
+	margin-top: 203px;
+	margin-left: 120px;
+}
+
+#right_arrow{
+
+	background: url('../resources/arrows.png') -94px 0;
+	position: absolute;
+
+}
+#right_arrow{
+
+	height: 60px;
+	width: 33px;
+	z-index: 10;
+	margin-top: 203px;
+	margin-left: 1123px;
+}
+
+#content{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin-top: 0px;
+
+}
+
+.description{
+	
+	position: absolute;
+	z-index: 1;
+	background: black;
+	opacity: 0.4;
+	color: white;
+	width: 307px;
+	margin-top: 253px;
+	height: 169px;
+	font-weight: normal;
+}
+
+.description p{
+
+	border-left: 10px solid #b0ccc6;
+	font-size: 16px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	opacity: 1.0;
+
+
+
+}
+
+.description h1{
+
+	text-align: center;
+	opacity: 1.0;
+
+}
+
+
+
+.open h4 {
+	
+	
+	background: #b0ccc6;
+	width: 80px;
+	color: black;
+	height: 25px;
+	margin-left: 210px;
+	margin-top: 380px;
+	padding-left: 7px;
+	padding-top: 5px;
+	padding-right: 10px;
+	position: absolute;
+	z-index: 10;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+a:hover .description{
+
+	margin-top : 235px;
+	height : 186px;
+
+	-webkit-transition: all 0.3s ease;
+	
+}
+
+a:hover .open h4{
+
+	width: 90px;
+	margin-left: 200px;
+
+	-webkit-transition: all 0.1s ease;
+	
+}
+
+#image_content{
+		
+		overflow: hidden;
+		background: #b0ccc6;
+		width: 100px;
+		height: 100px;
+		border: solid 3px #EBE8E8;
+}
